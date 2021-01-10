@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dividercolor"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/coronalogonew" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="By - Omkar Patil \n (JNEC Student Intern)\n\n©Android Club JNEC CSE"
+            android:textAlignment="center"
+            android:textColor="@color/primarytext"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/aclonica" />
+
+
+    </LinearLayout>
+</ScrollView>

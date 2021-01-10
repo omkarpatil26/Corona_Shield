@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".btn7activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/a"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/a"
+            android:contentDescription="No more Quarantined" />
+
+        <TextView
+            android:id="@+id/tva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/c"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iva"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/b" />
+
+        <TextView
+            android:id="@+id/tvaa"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/d"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+
+            android:text="@string/actually_meditate"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cc"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/c" />
+
+        <TextView
+            android:id="@+id/ccc"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/meditation_is_one_of_the_best_things_you_can_do_right_now_to_relieve_stress_and_improve_your_wellbeing_if_you_re_like_the_rest_of_us_you_sit_down_try_to_quiet_your_mind_and_then_say_well_now_what_that_walks_you_through_meditation_and_mindfulness"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/set_up_a_home_movie_theatre"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/dd"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/d" />
+
+        <TextView
+            android:id="@+id/ddd"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/movie_theatres_around_the_country_are_closed_but_that_doesn_t_mean_you_can_t_still_get_your_cinematic_fix_at_home_allowing_you_to_project_a_new_release_or_family_friendly_classic_movies_pop_up_some_popcorn_set_up_the_pillows_and_enjoy_the_show"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ee"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/e" />
+
+        <TextView
+            android:id="@+id/eee"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/sitting_at_home_binge_and_passing_time_away_may_not_feel_like_you_re_doing_much_but_you_re_actually_living_through_a_major_historical_event_that_people_will_learn_and_talk_about_for_generations_after_this_is_all_over_writing_a_journal_will_help_you_not_just_preserve_your_memories_but_will_also_help_you_process_your_feelings_about_this_time_that_manages_to_feel_simultaneously_terrifying_and_immensely_boring_you_could_also_consider_making_it_a_gratitude_journal"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/knit_a_bad_hair_day_beanie"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ff"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/f" />
+
+        <TextView
+            android:id="@+id/fff"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/needle_arts_used_to_be_a_staple_for_passing_the_time_while_making_something_useful_and_pretty_you_can_learn_to_knit_cross_stitch_embroider_crochet_or_tatt_with_a_beginner_kit"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/plant_a_container_garden"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/gg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/g" />
+
+        <TextView
+            android:id="@+id/ggg"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/just_because_you_have_to_stay_indoors_doesn_t_mean_you_can_t_get_started_on_your_spring_gardening_bring_the_outdoors_in_by_sprouting_seeds_or_planting_a_container_garden_bonus_you_can_use_your_fresh_herbs_in_your_amazing_healthy_dishes_you_re_learning_to_cook"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/learn_a_new_language"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/hh"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/h" />
+
+        <TextView
+            android:id="@+id/hhh"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/want_to_know_how_to_say_quarantine_stinks_in_five_other_languages_now_is_a_great_time_to_learn_or_practice_a_new_language_you_can_pick_a_standard_like_english_spanish_or_cantonese_or_you_can_branch_out"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/fortify_your_immune_system_with_green_juice"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ii"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/i" />
+
+        <TextView
+            android:id="@+id/iii"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/whipping_up_a_produce_packed_smoothie_or_a_green_juice_may_be_too_much_work_on_a_normal_morning_but_what_is_normal_anymore_these_days_it_s_more_important_than_ever_to_support_your_immune_system_and_your_waistline_with_plenty_of_fresh_or_frozen_fruits_and_veggies"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/j"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/take_a_virtual_world_tour"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/jj"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/j" />
+
+        <TextView
+            android:id="@+id/jjj"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/ever_wanted_to_statue_of_liberty_hike_everest_stroll_through_great_wall_of_china_you_can_do_all_that_without_worrying_about_spreading_disease_through_virtual_tours_consider_one_of_these_virtual_day_trips_you_can_now_take_online"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/upgrade_an_old_shirt_with_tie_dyeing"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/kk"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/kkk"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/tie_dyeing_isn_t_just_for_kids_or_people_who_never_outgrew_the_70s_it_s_a_versatile_art_form_that_is_fun_and_easy_to_do_upgrade_a_t_shirt_pair_of_leggings_baby_onesie_hat_or_any_other_cotton_item"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/stretch_and_strengthen_with_yoga"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/l" />
+
+        <TextView
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/do_yoga_during_the_pandemic_ranging_from_stress_relieving_breathing_exercises_to_popular_yoga_poses_to_regular_flows_no_prior_experience_or_flexibility_required_your_body_will_thank_you_for_doing_yoga"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/create_some_quarantine_art"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/mm"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/m" />
+
+        <TextView
+            android:id="@+id/mmm"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/channel_your_feelings_by_doing_something_creative_painting_is_a_great_way_to_express_yourself_learn_a_new_skill_and_help_you_see_ordinary_things_like_everything_in_your_house_you_ve_been_staring_at_for_weeks_in_a_whole_new_way"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/take_a_history_class"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/nn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/n" />
+
+        <TextView
+            android:id="@+id/nnn"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/so_many_interesting_things_to_learn_but_so_little_time_no_problem_now_brush_up_on_skills_for_your_job_or_take_a_course_in_something_purely_for_fun_like_astronomy_or_history_you_don_t_get_official_credit_for_them_but_you_get_to_keep_all_the_knowledge_you_learn"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/e"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/oo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/o" />
+
+        <TextView
+            android:id="@+id/ooo"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/f"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/g"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/p" />
+
+        <TextView
+            android:id="@+id/ppp"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/h"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/i"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/qq"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/q" />
+
+        <TextView
+            android:id="@+id/qqq"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/j"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/k"
+
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/rr"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/r" />
+
+        <TextView
+            android:id="@+id/rrr"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/l"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/m"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ss"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/s" />
+
+        <TextView
+            android:id="@+id/sss"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/n"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+
+
+        <TextView
+            android:id="@+id/u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/o"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/uu"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/u" />
+
+        <TextView
+            android:id="@+id/uuu"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+
+            android:text="@string/p"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/q"            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/vv"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/v" />
+
+        <TextView
+            android:id="@+id/vvv"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/r"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/s"
+
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ww"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/w" />
+
+        <TextView
+            android:id="@+id/www"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:autoText="false"
+            android:text="@string/t"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:typeface="monospace" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
